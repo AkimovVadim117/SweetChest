@@ -1,0 +1,24 @@
+:root {
+   --color-white: #FFFFFF;
+   --color-light-grey: #F2F6FA;
+   --color-dark: #1D1037;
+   --color-black: #000000;
+   --color-yellow: #FED84C;
+   --color-blue: #5D6AFB;
+   --color-translucent: #00000025;
+
+   --transition-default: 0.3s;
+
+   --border-width-default: 2px;
+   
+   --border-radius-small: 6px;
+   --border-radius-default: 10px;
+   --border-radius-circle: 100%;
+
+   --font-size-tiny: 12px;
+   --font-size-small: 18px;
+
+   --line-height-normal: 24px;
+   --line-height-medium: 30px;
+   --line-height-increased: 70px;
+}

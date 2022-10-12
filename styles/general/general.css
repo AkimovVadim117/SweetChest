@@ -1,0 +1,51 @@
+._flex {
+   display: flex;
+}
+
+._button_dark:hover {
+   background-color: transparent;
+   border-color: var(--color-yellow);
+   color: var(--color-white);
+}
+._button_white:hover {
+   background-color: transparent;
+   border-color: var(--color-yellow);
+   color: var(--color-yellow);
+}
+
+._align-center {
+   align-items: center;
+}
+
+._absolute {
+   position: absolute;
+}
+
+._pointer {
+   cursor: pointer;
+}
+
+.highlighting {
+   color: var(--color-green);
+}
+
+._text-uppercase {
+   text-transform: uppercase;
+}
+
+.text-center {
+   text-align: center;
+}
+
+._transition {
+   -webkit-transition: var(--transition-default);
+   -moz-transition: var(--transition-default);
+   -ms-transition: var(--transition-default);
+   -o-transition: var(--transition-default);
+   transition: var(--transition-default);
+}
+
+._width-limit {
+   max-width: 1230px;
+   margin: 0 auto;
+}

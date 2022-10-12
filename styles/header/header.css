@@ -1,0 +1,24 @@
+.header {
+   justify-content: space-between;
+   padding: 50px 25px 0 25px;
+
+   color: var(--color-white);
+}
+
+.header-logo {
+   font-size: 22px;
+}
+
+.contact {
+   align-items: flex-start;
+
+   font-size: var(--font-size-tiny);
+}
+
+.contact:first-child {
+   margin-right: 90px;
+}
+
+.contact-icon {
+   margin: 5px 15px 0 0;
+}

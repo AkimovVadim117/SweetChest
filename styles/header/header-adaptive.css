@@ -1,0 +1,33 @@
+@media (max-width: 767px) {
+   .contact {
+      font-size: 10px;
+   }
+
+   .contact:first-child {
+      margin-right: 25px;
+   }
+
+   .contact-icon {
+      margin: 0 9px 0 0;
+   }
+}
+
+@media (max-width: 525px) {
+   .header {
+      flex-direction: column;
+   }
+
+   .header-logo {
+      margin-bottom: 15px;
+   }
+}
+
+@media (max-width: 360px) {
+   .contacts-list {
+      flex-direction: column;
+   }
+   
+   .contact:first-child {
+      margin-bottom: 15px;
+   }
+}

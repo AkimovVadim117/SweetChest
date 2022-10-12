@@ -1,0 +1,30 @@
+@media (max-width: 880px) {
+   .ordering-form-order {
+      flex-direction: column;
+      align-items: center;
+   }
+   .ordering-input {
+      margin-right: 0;
+      margin-bottom: 10px;
+   }
+}
+
+@media (max-width: 520px) {
+   .ordering-screen-title {
+      font-size: 24px;
+   }
+   .ordering-screen-subtitle {
+      font-size: 12px;
+   }
+   .ordering-input,
+   .ordering-button {
+      width: 280px;
+   }
+}
+
+@media (max-width: 320px) {
+   .ordering-input,
+   .ordering-button {
+      width: 240px;
+   }
+}

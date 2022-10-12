@@ -1,0 +1,19 @@
+@media (max-width: 1180px) {
+   body {
+      color: black;
+   }
+   .catalog-item {
+      background-color: white;
+   }
+   .catalog-title {
+      color: black;
+      padding-top: 25px;
+   }
+   .catalog {
+      background-color: white;
+   }
+   .catalog-list {
+      padding: 25px;
+      align-items: center;
+   }
+}

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Сладкий сундук</title>
+
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="styles/general/reset.css">
+   <link rel="stylesheet" href="styles/general/fonts.css">
+   <link rel="stylesheet" href="styles/general/variables.css">
+   
+   <link rel="stylesheet" href="styles/header/header.css">
+   <link rel="stylesheet" href="styles/header/header-adaptive.css">
+
+   <link rel="stylesheet" href="styles/main-screen/main-screen.css">
+   <link rel="stylesheet" href="styles/main-screen/main-screen-adaptive.css">
+
+   <link rel="stylesheet" href="styles/catalog/catalog.css">
+   <link rel="stylesheet" href="styles/catalog/catalog-adaptive.css">
+
+   <link rel="stylesheet" href="styles/confectioner-screen/confectioner-screen.css">
+   <link rel="stylesheet" href="styles/confectioner-screen/confectioner-screen-adaptive.css">
+
+   <link rel="stylesheet" href="styles/ordering-screen/ordering-screen.css">
+   <link rel="stylesheet" href="styles/ordering-screen/ordering-screen-adaptive.css">
+
+   <link rel="stylesheet" href="styles/footer/footer.css">
+
+   <link rel="stylesheet" href="styles/general/general.css">
+   <link rel="stylesheet" href="styles/general/body-adaptive.css">
+</head>
+<body>
+   <header class="header _flex _align-center _width-limit">
+      <span class="header-logo">
+         Сладкий сундук
+      </span>
+      <ul class="contacts-list _flex">
+         <li class="contact contact-address _flex">
+            <img class="address-icon contact-icon" src="images/icons/header_icon-location.png" alt="Иконка информации о контактах (адрес)">
+            <address class="header-address">
+               г. Барнаул,<br>
+               ул. Энтузиастов 28
+            </address>
+         </li>
+         <li class="contact contact-number _flex">
+            <img class="number-icon contact-icon" src="images/icons/header_icon-telephone.png" alt="Иконка информации о контактах (телефон)">
+            <span class="header-number">
+               8 (812) 844-95-49<br>
+               <span class="number-subtext">
+                  Ежедневно с 9:00 до 20:00
+               </span>
+            </span>
+         </li>
+      </ul>
+   </header>
+
+   <main class="main _width-limit">
+      <section class="main-screen">
+         <img class="main-screen-image" src="images/main-screen/main-screen-image.png" alt="Изображение главного экрана (пирожные)">
+
+         <h1 class="main-screen-title">
+            Пирожные и капкейки<br>
+            от 150 ₽/шт. с доставкой<br>
+            по Барнаулу
+         </h1>
+         <p class="main-screen-subtitle">
+            Приготовим за 3 часа в день заказа.<br>
+            Доставка на авто в холодильнике.
+         </p>
+
+         <div class="main-button _flex _align-center">
+            <a class="main-screen-button _button_dark _pointer _transition" href="">
+               Перейти в каталог
+            </a>
+            <span class="main-screen-button-text">
+               9 различных
+               видов на выбор
+            </span>
+         </div>
+      </section>
+
+      <section class="catalog">
+         <h2 class="catalog-title text-center">
+            Для любых событий и дорогих вам людей
+         </h2>
+
+         <ul class="catalog-list _flex">
+            <li class="catalog-item _transition">
+               <img src="images/catalog/catalog-item_1.png" alt="Изображение пирожного в каталоге" class="item-image _pointer _transition">
+               <div class="item-text-content">
+                  <h3 class="item-title">
+                     Кремовый замок
+                  </h3>
+                  <p class="item-description">
+                     Нежный крем любого цвета на выбор, вафельная основа   
+                  </p>
+                  <span class="item-price">
+                     150р/шт.
+                  </span>
+                  <a class="item-button _button_white _transition" href="#screen-ordering">
+                     Заказать
+                  </a>
+               </div>
+            </li>
+            <li class="catalog-item _transition">
+               <img src="images/catalog/catalog-item_2.png" alt="Изображение пирожного в каталоге" class="item-image _pointer _transition">
+               <div class="item-text-content">
+                  <h3 class="item-title">
+                     Малиновый рай
+                  </h3>
+                  <p class="item-description">
+                     Воздушный крем, темная основа и ягода малины
+                  </p>
+                  <span class="item-price">
+                     150р/шт.
+                  </span>
+                  <a class="item-button _button_white _transition" href="#screen-ordering">
+                     Заказать
+                  </a>
+               </div>
+            </li>
+            <li class="catalog-item _transition">
+               <img src="images/catalog/catalog-item_3.png" alt="Изображение пирожного в каталоге" class="item-image _pointer _transition">
+               <div class="item-text-content">
+                  <h3 class="item-title">
+                     Фейерверк
+                  </h3>
+                  <p class="item-description">
+                     Разноцветный крем, с бисквитной основой
+                  </p>
+                  <span class="item-price">
+                     150р/шт.
+                  </span>
+                  <a class="item-button _button_white _transition" href="#screen-ordering">
+                     Заказать
+                  </a>
+               </div>
+            </li>
+            <li class="catalog-item _transition">
+               <img src="images/catalog/catalog-item_4.png" alt="Изображение пирожного в каталоге" class="item-image _pointer _transition">
+               <div class="item-text-content">
+                  <h3 class="item-title">
+                     Шоколадный мир
+                  </h3>
+                  <p class="item-description">
+                     Ореховая стружка, нежный крем и шоколадная основа
+                  </p>
+                  <span class="item-price">
+                     150р/шт.
+                  </span>
+                  <a class="item-button _button_white _transition" href="#screen-ordering">
+                     Заказать
+                  </a>
+               </div>
+            </li>
+            <li class="catalog-item _transition">
+               <img src="images/catalog/catalog-item_5.png" alt="Изображение пирожного в каталоге" class="item-image _pointer _transition">
+               <div class="item-text-content">
+                  <h3 class="item-title">
+                     Слезы дракона
+                  </h3>
+                  <p class="item-description">
+                     Нежный крем любого цвета на выбор, вафельная основа   
+                  </p>
+                  <span class="item-price">
+                     150р/шт.
+                  </span>
+                  <a class="item-button _button_white _transition" href="#screen-ordering">
+                     Заказать
+                  </a>
+               </div>
+            </li>
+            <li class="catalog-item _transition">
+               <img src="images/catalog/catalog-item_6.png" alt="Изображение пирожного в каталоге" class="item-image _pointer _transition">
+               <div class="item-text-content">
+                  <h3 class="item-title">
+                     Летняя фантазия
+                  </h3>
+                  <p class="item-description">
+                     Украшения в форме сердце, для любимого человека
+                  </p>
+                  <span class="item-price">
+                     150р/шт.
+                  </span>
+                  <a class="item-button _button_white _transition" href="#screen-ordering">
+                     Заказать
+                  </a>
+               </div>
+            </li>
+            <li class="catalog-item _transition">
+               <img src="images/catalog/catalog-item_7.png" alt="Изображение пирожного в каталоге" class="item-image _pointer _transition">
+               <div class="item-text-content">
+                  <h3 class="item-title">
+                     Мыс безумия
+                  </h3>
+                  <p class="item-description">
+                     Разноцветная основа, стружка и нежный крем
+                  </p>
+                  <span class="item-price">
+                     150р/шт.
+                  </span>
+                  <a class="item-button _button_white _transition" href="#screen-ordering">
+                     Заказать
+                  </a>
+               </div>
+            </li>
+            <li class="catalog-item _transition">
+               <img src="images/catalog/catalog-item_8.png" alt="Изображение пирожного в каталоге" class="item-image _pointer _transition">
+               <div class="item-text-content">
+                  <h3 class="item-title">
+                     Облачная сказка
+                  </h3>
+                  <p class="item-description">
+                     Светлая основа, нежный крем со стружкой сверху 
+                  </p>
+                  <span class="item-price">
+                     150р/шт.
+                  </span>
+                  <a class="item-button _button_white _transition" href="#screen-ordering">
+                     Заказать
+                  </a>
+               </div>
+            </li>
+            <li class="catalog-item _transition">
+               <img src="images/catalog/catalog-item_9.png" alt="Изображение пирожного в каталоге" class="item-image _pointer _transition">
+               <div class="item-text-content">
+                  <h3 class="item-title">
+                     Тёмный рыцарь
+                  </h3>
+                  <p class="item-description">
+                     Тёмная основа, нежный крем и вкусные шарики
+                  </p>
+                  <span class="item-price">
+                     150р/шт.
+                  </span>
+                  <a class="item-button _button_white _transition" href="#screen-ordering">
+                     Заказать
+                  </a>
+               </div>
+            </li> 
+         </ul>
+      </section>
+
+      <section class="confectioner-screen _flex _align-center">
+         <div class="confectioner-text-content">
+            <span class="confectioner-subtitle">
+               Кто будет готовить?
+            </span>
+            <h2 class="confectioner-title">
+               Лично приготовлю<br>
+               и всё красиво упакую<br>
+               для вашего события
+            </h2>
+            
+            <ul class="confectioner-plan">
+               <li class="plan-step">
+                  <p class="step-text">
+                     Проконсультирую по выбору капкейков<br>
+                     и придумаю нестандартную идею
+                  </p>
+               </li>
+               <li class="plan-step">
+                  <p class="step-text">
+                     Приготовлю капкейки для вашего события,<br>
+                     которые обязательно всем понравятся
+                  </p>
+               </li>
+               <li class="plan-step">
+                  <p class="step-text">
+                     Аккуратно и красиво всё упакую, если<br>
+                     вы хотите сделать приятный подарок
+                  </p>
+            </li>
+            </ul>
+            <span class="confectioner-button _button_white _transition _pointer">
+               Задать вопрос Юлии
+            </span>
+         </div>
+         <div class="confectioner-image-content">
+            <img class="confectioner-image" src="images/confectioner/woman.png" alt="Кондитер Юлия Кондратьева">
+            <div class="confectioner-image-text-content _flex _align-center">
+               <span class="confectioner-image-text image-text_1">
+                  Юлия Кондратьева
+               </span>
+               <span class="confectioner-image-text image-text_2">
+                  Ваш кондитер
+               </span>
+            </div>
+         </div>
+      </section>
+
+      <section class="ordering-screen _width-limitе text-center">
+         <h2 class="ordering-screen-title">
+            Чтобы сделать заказ, укажите ваш телефон
+         </h2>
+         <p class="ordering-screen-subtitle">
+            Мы перезвоним в течении 15 минут, чтобы уточнить ваши пожелания
+         </p>
+         <form action="" class="ordering-form-order _flex">
+            <input type="tel" name="" id="" class="ordering-input" placeholder="Номер телефона">
+            <button class="ordering-button _button_white _transition _pointer">
+               Сделать заказ
+            </button>
+         </form>
+      </section>
+      
+   </main>
+   
+   <footer class="footer _width_limite text-center">
+      <span class="footer-info">
+         © swchest.ru, 2022 | Сладкий сундук, Барнаул
+      </span>
+   </footer>
+
+   <script src="scripts/catalog.js"></script>
+</body>
+</html>

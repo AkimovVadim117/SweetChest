@@ -1,0 +1,49 @@
+.main {
+   padding: 0 15px;
+}
+
+.main-screen {
+   color: var(--color-white);
+}
+
+.main-screen-image {
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+
+   background-size: cover;
+   
+   z-index: -1;
+}
+
+.main-screen-title {
+   margin: 185px 0 20px 0;
+}
+
+.main-button {
+   margin-top: 40px;
+}
+
+.main-screen-button,
+.main-screen-button-text {
+   display: block;
+}
+
+.main-screen-button {
+   padding: 30px 50px;
+
+   border: var(--border-width-default) solid transparent;
+   border-radius: var(--border-radius-default);
+   color: var(--color-black);
+   background-color: var(--color-yellow);
+}
+
+.main-screen-button-text {
+   margin-left: 20px;
+
+   font-size: var(--font-size-tiny);
+}
