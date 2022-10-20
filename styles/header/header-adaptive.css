@@ -1,3 +1,9 @@
+@media (max-width: 1180px) {
+   .header {
+      color: var(--color-black);
+   }
+}
+
 @media (max-width: 767px) {
    .contact {
       font-size: 10px;
